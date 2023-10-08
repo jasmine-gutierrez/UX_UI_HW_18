@@ -1,0 +1,129 @@
+body { 
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    background-color: bisque;
+    padding: 15px;
+    display: flex;
+    align-items: stretch;
+}
+
+nav{
+    width: 73%;
+    padding: 1%;
+    display: flex;
+    align-items: stretch;
+}
+
+.inline-block{
+    display: inline-block;
+    padding: 5px;    
+}
+    
+div.logo{
+    width: 23%;
+    padding: 1%;
+}
+
+
+
+ul{
+    width: 40%;
+    margin-left: auto;
+}
+
+.logo{
+    text-align: center;
+}
+
+.heroImg{
+    height: 650px;
+    padding: 100px 15px;
+}
+
+.content{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+    display: block;
+    background-color: bisque;
+    text-align: center;
+    
+}
+
+button {
+    padding: 15px;
+    background-color: #373738;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+
+footer{
+    background-color: bisque;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.flexContainer{
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexChild{
+    padding: 10px;
+    margin: 10px;
+    height: 1%;
+    text-align: center;
+    justify-content: space-around;
+}
+
+h1.mySkills{
+    text-align: center;
+}
+
+h1, h3{
+    text-align: center;
+}
+
+.workGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 15px;
+    margin: 15px;
+    grid-gap: 1em 1em;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.project1, .project2, .project3{
+    justify-self:center;
+}
+
+img.myWork{
+    object-fit: contain;
+    width: 700px;
+}
+
+img.mySkills{
+   padding: 10px;
+}
+
+
+section.mySkills{
+    padding: 20px;
+    outline: rgb(255, 228, 196) solid 7px;
+    background-color: bisque;
+}
+
+section.myWork{
+    padding: 20px;
+}
